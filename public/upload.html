@@ -10,10 +10,21 @@
     action="/upload-profile-pic"
     enctype="multipart/form-data"
     >
+      <div>
+        <label>
+          Filename: <br />
+
+          <input type="text" name="fileName" />
+        </label>
+      </div>
+      <br>
+      <br>
        <div>
            <label>Select your profile picture:</label>
            <input type="file" name="profile_pic" />
        </div>
+       <br>
+       <br>
        <div>
            <input type="submit" value="Upload" />
        </div>
